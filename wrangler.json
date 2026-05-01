@@ -1,0 +1,23 @@
+{
+  "name": "armincwhttp",
+  "main": "worker.js",
+  "compatibility_date": "2026-03-12",
+  "type": "javascript",
+  "account_id": "454a7d6ff20334c6e65410e68685ff72",
+  "workers_dev": true,
+  "observability": {
+    "enabled": false,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true,
+      "persist": true,
+      "head_sampling_rate": 1
+    }
+  }
+}
